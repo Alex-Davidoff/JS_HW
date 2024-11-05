@@ -3,7 +3,7 @@
 
 console.log("task 9 :");
 
-let t_day2 = +prompt("Enter Number Day of Week value");
+let t_day2 = +prompt("Enter Number Day of Week value (task 9)");
 console.log("t_day2 =",t_day2);
 
 if (isNaN(t_day2)){

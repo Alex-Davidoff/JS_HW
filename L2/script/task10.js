@@ -5,8 +5,8 @@
 
 console.log("task 10 :");
 
-let t_val_a = +prompt("Enter A (number)");
-let t_val_b = +prompt("Enter B (number)");
+let t_val_a = +prompt("Enter A (number) (task 10)");
+let t_val_b = +prompt("Enter B (number) (task 10)");
 console.log("A = "+t_val_a,"B = "+t_val_b);
 
 if (isNaN(t_val_a) || isNaN(t_val_b)){

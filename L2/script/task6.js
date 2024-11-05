@@ -3,7 +3,7 @@
 // Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
 console.log("task 6 :");
 
-let x = +prompt("Enter X(number) value");
+let x = +prompt("Enter X(number) value (task 6)");
 console.log("X =", x);
 if (isNaN(x)){
     console.log("input error (X)"); 
