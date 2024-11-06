@@ -1,5 +1,3 @@
-// #LARqoUj5I
-// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
 console.log("task 2 :");
 
     let book1 = {

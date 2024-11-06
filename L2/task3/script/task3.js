@@ -1,5 +1,3 @@
-// #sA3Gg1sCp
-// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
 console.log("task 3 :");
 
 let book4 = {
