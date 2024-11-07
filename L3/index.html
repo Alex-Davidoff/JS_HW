@@ -6,6 +6,13 @@
     <title>L3 JS HW</title>
 </head>
 <body>
-    
+    <script>
+        document.write('<ul>');
+        for (let c = 1; c<=8; c++){
+            document.write('<li><a href="'+'task'+c+'/task'+c+'.html'+'">'+'task'+c+'</a></li>');
+            if (c=7){document.write('<hr>')};
+        }
+        document.write('</ul>');
+    </script>
 </body>
 </html>
