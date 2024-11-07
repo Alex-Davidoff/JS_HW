@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L3 JS HW</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        ul>li{
+            margin: 0.5rem 0;
+        }
+    </style>
 </head>
 <body>
     <script>
         document.write('<ul>');
         for (let c = 1; c<=10; c++){
-            document.write('<li><a href="'+'task'+c+'/task'+c+'.html'+'">'+'task'+c+'</a></li>');
-            if (c=7){document.write('<hr>')};
+            const add_s = (c>7) ? ' additional' : '';
+            document.write('<li><a href="'+'task'+c+'/task'+c+'.html'+'">'+'task'+c+add_s+'</a></li>');
         }
         document.write('</ul>');
     </script>
