@@ -13,7 +13,7 @@ function t_arr_init(l){
 t_arr_init(20);
 console.log(t_arr);
 
-function arr_show(t_arr, class_name){
+let arr_show = (t_arr, class_name) => {
     document.write('<div class="'+class_name+'">');
     for (const t_obj of t_arr){
         document.write('<div class="'+class_name+'_elem'+'">');
@@ -25,4 +25,4 @@ function arr_show(t_arr, class_name){
     document.write('</div>');
 }
 
-arr_show(t_arr, 'arr');
+let tval= arr_show(t_arr, 'arr');
