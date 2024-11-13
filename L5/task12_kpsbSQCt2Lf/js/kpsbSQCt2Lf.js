@@ -8,15 +8,15 @@ function t_arr_init(l){
     }
 }
 
-t_arr_init(8,0);
+t_arr_init(8);
 console.log(t_arr);
 
-function swap(arr,index1,index2){
+let swap = (arr,index1,index2) => {
     let t_elem;
     t_elem = arr[index1];
     arr[index1] = arr[index2];
     arr[index2] = t_elem;
+    return arr;
 }
 
-swap(t_arr,3,4);
-console.log(t_arr);
+console.log(swap(t_arr,3,4));
