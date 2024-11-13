@@ -19,10 +19,10 @@ function temp_arr_init(){
 temp_arr_init();
 console.log(temp_arr);
 
-function arr_show (inp_arr) {
+let arr_show = (inp_arr) =>{
     for (const t_item of inp_arr){
         console.log(t_item);
     }
 } 
 
-arr_show(temp_arr);
+let tval = arr_show(temp_arr);
