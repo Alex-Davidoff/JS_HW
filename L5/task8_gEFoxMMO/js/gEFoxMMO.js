@@ -18,12 +18,12 @@ function t_arr_init(l,n_type){
 t_arr_init(8,0);
 console.log(t_arr);
 
-function t_arr_show(){
+let t_arr_show = (sh_arr) => {
     document.write('<ul>');
-    for (const elem of t_arr){
+    for (const elem of sh_arr){
         document.write('<li>'+elem+'</li>');
     }
     document.write('</ul>');
 }
 
-t_arr_show();
+let tval = t_arr_show(t_arr);
