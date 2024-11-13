@@ -1,6 +1,4 @@
-function calc_circle_area(r){
-    return r*r*Math.PI;
-}
+let calc_circle_area = (r) => r*r*Math.PI;
 
 let r=20;
 let circle_area = calc_circle_area(r);
