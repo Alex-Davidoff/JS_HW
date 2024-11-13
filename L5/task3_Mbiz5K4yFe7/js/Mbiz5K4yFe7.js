@@ -1,6 +1,4 @@
-function calc_cylinder_area(r,h){
-    return 2 * Math.PI * r * (r + h);
-}
+let calc_cylinder_area = (r,h) => 2 * Math.PI * r * (r + h);
 
 let r = 4;
 let h = 5;
