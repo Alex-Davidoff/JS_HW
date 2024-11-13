@@ -1,14 +1,12 @@
-function calc_area(a, b){
-    return a * b;
-}
+let calc_area = (a, b) => a * b;
 
 let a=5;
 let b=10;
-let rect_area = calc_area(a, b);
 
-console.log(a, b, rect_area);
+console.log(calc_area(a,b));
+
 document.write(`
     <p>a= ${a}</p>
     <p>b= ${b}</p>
-    <p>rect_area= ${rect_area}</p>
+    <p>rect_area= ${calc_area(a,b)}</p>
 `);
