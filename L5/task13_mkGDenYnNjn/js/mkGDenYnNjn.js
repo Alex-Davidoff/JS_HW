@@ -11,7 +11,7 @@ let exch_table_UAH = [
 
 console.log(exch_table_UAH);
 
-function exch_table_UAH_find(curr){
+let exch_table_UAH_find = (curr) => {
     let tres = -1;
     for (const el of exch_table_UAH){
         if (curr===el.currency) {tres=el.buy_koef}
@@ -21,7 +21,7 @@ function exch_table_UAH_find(curr){
 
 console.log('CAD', exch_table_UAH_find('CAD'));
 
-function m_exchange(sumUAH,exchangeCurrency){
+let m_exchange = (sumUAH,exchangeCurrency) => {
     let k = exch_table_UAH_find(exchangeCurrency);
     if (k!==-1){
         return sumUAH / k;
