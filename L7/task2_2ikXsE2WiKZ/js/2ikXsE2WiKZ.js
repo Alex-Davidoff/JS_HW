@@ -23,3 +23,7 @@ function CreateArrOfUser (len){
 let user_arr = CreateArrOfUser(10);
 
 console.log(user_arr);
+
+let filt_user_arr = user_arr.filter(value => ((value.id % 2) === 0));
+
+console.log(filt_user_arr);
