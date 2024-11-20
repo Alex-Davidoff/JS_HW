@@ -52,4 +52,4 @@ console.log('------------ copy');
 const copytest = createFullCopy(testobject);
 console.log(copytest);
 console.log(copytest.getAdress());
-//console.log('copytest.road.showRoad()', 'not exists in copy'); //need upgrade (recursion)
+//console.log('copytest.road.showRoad()', 'not exists in copy'); //need upgrade (recursion) typeof === object (for in)
