@@ -8,3 +8,7 @@ test.style.margin = '1rem auto';
 document.body.appendChild(test);
 
 console.log(test);
+
+let test2 = test.cloneNode(true);
+test2.id = 'test2';
+document.body.appendChild(test2);
