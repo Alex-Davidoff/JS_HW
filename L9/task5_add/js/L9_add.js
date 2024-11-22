@@ -39,3 +39,33 @@ const coursesArray = [
 
 console.log(coursesArray);
 
+let courcesPanel = document.createElement('div');
+courcesPanel.classList.add('courcesPanel');
+for (const tcourse of coursesArray){
+    let courceCard = document.createElement('div');
+    courcesPanel.appendChild(courceCard);
+    courceCard.classList.add('courceCard');
+    let courceTitle = document.createElement('h2');
+    courceCard.appendChild(courceTitle);
+    courceTitle.innerHTML = tcourse.title;
+    let courseLenght = document.createElement('span');
+    courceCard.appendChild(courseLenght);
+
+        let courceMonths = document.createElement('p');
+        courseLenght.appendChild(courceMonths);
+        courceMonths.innerHTML = tcourse.monthDuration+' months';
+        let courceHours = document.createElement('p');
+        courseLenght.appendChild(courceHours);
+        courceHours.innerHTML = tcourse.hourDuration+' hours';
+
+
+    let modulesPanel = document.createElement('ul');
+    courceCard.appendChild(modulesPanel);
+    for (const tmodule of tcourse.modules){
+        let module = document.createElement('li');
+        modulesPanel.appendChild(module);
+        module.innerHTML = tmodule;
+    }
+}
+
+document.body.appendChild(courcesPanel);
