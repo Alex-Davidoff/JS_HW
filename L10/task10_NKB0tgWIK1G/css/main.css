@@ -1,0 +1,9 @@
+ul{
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.nav_panel>*{
+    display: inline-block;
+    margin-right: 1rem;
+}
